@@ -1,0 +1,47 @@
+.navbar {
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(182, 182, 182);
+}
+.navbar-brand {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  background: linear-gradient(rgba(217, 217, 217, 0.226), rgba(0, 0, 0, 0.6));
+  border-radius: 5%;
+}
+.brand-img {
+  width: 4rem;
+  padding-right: 0.5rem;
+}
+.brand-name {
+  font-family: "Italiana", serif;
+  text-shadow: 2px 2px black;
+  font-weight: 600;
+  color: rgb(239, 239, 239);
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+  background: linear-gradient(rgba(217, 217, 217, 0.226), rgba(0, 0, 0, 0.6));
+  border-radius: 5%;
+}
+.cart-icon {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 0.25rem;
+}
+.cart-total-nav {
+  padding: 0.5rem;
+  color:rgb(239, 239, 239);
+}
