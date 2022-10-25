@@ -28,7 +28,7 @@ function App() {
       </div>
       
         <Routes>
-          <Route path="/Views/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Views/More/:id" element={<More />} />
           <Route path="/Views/ViewCart" element={<ViewCart />} />
           <Route path="/Views/NotFound" element={<NotFound />} />

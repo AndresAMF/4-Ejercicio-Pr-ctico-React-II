@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="navbar-brand" onClick={() => navigate(`../../Views/Home`)}>
+      <div className="navbar-brand" onClick={() => navigate(`../../`)}>
         <img className="brand-img" src={icon} alt="pizza-icon" />
         <h3 className="brand-name">Pizzería Mamma Mia!</h3>
         <img className="brand-img" src={hand} alt="italian-hand"></img>
